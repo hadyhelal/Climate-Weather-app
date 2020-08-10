@@ -1,5 +1,3 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Clima
 
 ## Our Goal
@@ -23,26 +21,5 @@ Clima is a location-aware weather app. It will find out where you are in the wor
 * How to pass data between View Controllers.
 * Learn and use Switch statements
 
-
-
-
-
-## Fix for App Transport Security Override (HTTP)
-
-```XML
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>openweathermap.org</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
-```
 
 
